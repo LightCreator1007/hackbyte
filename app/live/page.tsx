@@ -15,34 +15,34 @@ interface EventData {
 
 // Fixed timeline data mapped to actual Date objects for accurate tracking
 const flattenedEvents: EventData[] = [
-  { time: "2:30 PM", endTime: "5:00 PM", title: "Entry Begins", venue: "Main Gate", type: "Public" as const, dateObj: new Date("2026-04-03T14:30:00") },
-  { time: "2:30 PM", endTime: "5:30 PM", title: "Registration and Reporting", venue: "Front of LHTC", type: "Public" as const, dateObj: new Date("2026-04-03T14:30:00") },
-  { time: "5:00 PM", endTime: "6:45 PM", title: "Inauguration Ceremony", venue: "Auditorium, LHTC", type: "Everyone" as const, dateObj: new Date("2026-04-03T17:00:00") },
-  { time: "6:45 PM", endTime: "7:00 PM", title: "Participants Move to Venue", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-03T18:45:00") },
+  { time: "2:30 PM", endTime: "5:00 PM", title: "Entry", venue: "Main Gate", type: "Public" as const, dateObj: new Date("2026-04-03T14:30:00") },
+  { time: "2:30 PM", endTime: "5:30 PM", title: "Registration ", venue: "Front of LHTC", type: "Public" as const, dateObj: new Date("2026-04-03T14:30:00") },
+  { time: "5:00 PM", endTime: "6:45 PM", title: "Inauguration ", venue: "Auditorium, LHTC", type: "Everyone" as const, dateObj: new Date("2026-04-03T17:00:00") },
+  { time: "6:45 PM", endTime: "7:00 PM", title: "Move to Venue", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-03T18:45:00") },
   { time: "7:00 PM", title: "Hacking Begins", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-03T19:00:00") },
   { time: "9:00 PM", endTime: "10:00 PM", title: "Dinner", venue: "Mess", type: "Everyone" as const, dateObj: new Date("2026-04-03T21:00:00") },
   
-  { time: "12:00 AM", endTime: "1:30 AM", title: "Mentorship Round 1", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T00:00:00") },
+  { time: "12:00 AM", endTime: "1:30 AM", title: "Mentorship R1", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T00:00:00") },
   { time: "1:45 AM", endTime: "2:30 AM", title: "Fun Event with Prizes!", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T01:45:00") },
   { time: "2:45 AM", title: "Midnight Snack", venue: "LHTC", type: "Public" as const, dateObj: new Date("2026-04-04T02:45:00") },
-  { time: "4:30 AM", title: "Checkpoint 1 / 3", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T04:30:00") },
+  { time: "4:30 AM", title: "Checkpoint 1/3", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T04:30:00") },
   { time: "7:30 AM", endTime: "8:30 AM", title: "Breakfast Break", venue: "Mess", type: "Everyone" as const, dateObj: new Date("2026-04-04T07:30:00") },
   { time: "10:30 AM", endTime: "11:30 AM", title: "Fireside Chat", venue: "L104/L105", type: "Everyone" as const, dateObj: new Date("2026-04-04T10:30:00") },
   { time: "12:00 PM", endTime: "1:00 PM", title: "Lunch Break", venue: "Mess", type: "Everyone" as const, dateObj: new Date("2026-04-04T12:00:00") },
-  { time: "2:00 PM", title: "Checkpoint 2 / 3", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T14:00:00") },
-  { time: "2:00 PM", endTime: "4:00 PM", title: "Judging Round 1", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T14:00:00") },
+  { time: "2:00 PM", title: "Checkpoint 2/3", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T14:00:00") },
+  { time: "2:00 PM", endTime: "4:00 PM", title: "Judging R1", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T14:00:00") },
   { time: "4:45 PM", title: "Evening Snacks", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T16:45:00") },
-  { time: "6:00 PM", endTime: "8:00 PM", title: "GitHub + MLH Workshop", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T18:00:00") },
+  { time: "6:00 PM", endTime: "8:00 PM", title: "GitHub+MLH Workshop", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-04T18:00:00") },
   { time: "9:00 PM", endTime: "10:00 PM", title: "Dinner Break", venue: "Mess", type: "Everyone" as const, dateObj: new Date("2026-04-04T21:00:00") },
 
-  { time: "12:00 AM", endTime: "1:30 AM", title: "Mentorship Round 2", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T00:00:00") },
+  { time: "12:00 AM", endTime: "1:30 AM", title: "Mentorship R2", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T00:00:00") },
   { time: "1:45 AM", endTime: "2:30 AM", title: "Fun Event with Prizes!", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T01:45:00") },
   { time: "2:45 AM", title: "Midnight Snack", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T02:45:00") },
-  { time: "4:00 AM", title: "Checkpoint 3 / 3", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T04:00:00") },
+  { time: "4:00 AM", title: "Checkpoint 3/3", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T04:00:00") },
   { time: "6:00 AM", title: "Soft Deadline", venue: "Online", type: "Public" as const, dateObj: new Date("2026-04-05T06:00:00") },
-  { time: "7:00 AM", title: "Hard Deadline — Coding Ends", venue: "Online", type: "Public" as const, dateObj: new Date("2026-04-05T07:00:00") },
+  { time: "7:00 AM", title: "Hard Deadline - Coding Ends", venue: "Online", type: "Public" as const, dateObj: new Date("2026-04-05T07:00:00") },
   { time: "7:30 AM", endTime: "8:30 AM", title: "Breakfast Break", venue: "Mess", type: "Everyone" as const, dateObj: new Date("2026-04-05T07:30:00") },
-  { time: "9:30 AM", title: "Judging Round 2", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T09:30:00") },
+  { time: "9:30 AM", title: "Judging R2", venue: "L104/L105", type: "Public" as const, dateObj: new Date("2026-04-05T09:30:00") },
   { time: "12:00 PM", endTime: "1:00 PM", title: "Lunch Break", venue: "Mess", type: "Everyone" as const, dateObj: new Date("2026-04-05T12:00:00") },
   { time: "2:30 PM", endTime: "4:00 PM", title: "Closing Ceremony", venue: "Auditorium, LHTC", type: "Everyone" as const, dateObj: new Date("2026-04-05T14:30:00") },
 ]; // sorted chronologically
@@ -147,11 +147,11 @@ export default function LiveProjectorPage() {
             
           {/* Main Countdown (Time left) - Spans 2 columns horizontally */}
           <div className="md:col-span-2 flex flex-col items-center justify-center bg-white/5 border border-white/10 py-12 px-6 sm:p-14 rounded-[2.5rem] backdrop-blur-md shadow-2xl shadow-purple-900/50 min-w-0 w-full overflow-hidden">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-poppins text-pink-300 font-semibold mb-6 uppercase tracking-[0.2em] opacity-80 whitespace-nowrap truncate max-w-full">
+            <h2 className="text-[clamp(1.2rem,2.5vw,1.875rem)] font-poppins text-pink-300 font-semibold mb-6 uppercase tracking-[0.2em] opacity-80 whitespace-nowrap max-w-full">
               {hackIsOver ? "Hacking Concluded" : "Time Remaining"}
             </h2>
             <div className="w-full flex justify-center">
-              <div className="font-kanit text-[4rem] sm:text-[6rem] md:text-[7rem] lg:text-[8rem] xl:text-[9rem] leading-none font-black tracking-tight text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] tabular-nums whitespace-nowrap truncate text-center">
+              <div className="font-kanit text-[clamp(3.5rem,11.5vw,9rem)] leading-none font-black tracking-tight text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] tabular-nums whitespace-nowrap text-center">
                 {!hackIsOver ? formatTimeLeft(timeLeftToHack) : "00 : 00 : 00"}
               </div>
             </div>
@@ -163,29 +163,29 @@ export default function LiveProjectorPage() {
               <>
                 <div className="absolute inset-0 bg-gradient-to-tr from-violet-500/10 to-transparent opacity-50"></div>
                 <div className="relative z-10 flex flex-col h-full justify-center min-w-0">
-                  <h3 className="text-lg sm:text-xl font-poppins uppercase tracking-[0.2em] text-violet-300 font-semibold mb-6 whitespace-nowrap">
+                  <h3 className="text-[clamp(1.125rem,2vw,1.25rem)] font-poppins uppercase tracking-[0.2em] text-violet-300 font-semibold mb-6 whitespace-nowrap">
                     Up Next
                   </h3>
-                  <div className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-kanit font-extrabold text-white mb-6 leading-tight whitespace-nowrap truncate max-w-full">
+                  <div className="text-[clamp(1.875rem,3.5vw,3.75rem)] font-kanit font-extrabold text-white mb-6 leading-tight whitespace-nowrap max-w-full">
                     {nextEvent.title}
                   </div>
-                  <div className="flex flex-col gap-4 text-lg sm:text-xl lg:text-2xl font-poppins text-white/70 min-w-0">
-                    <div className="flex items-center gap-3 whitespace-nowrap truncate max-w-full">
-                      <svg className="w-6 h-6 sm:w-8 sm:h-8 text-violet-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="flex flex-col gap-4 text-[clamp(1.125rem,2vw,1.5rem)] font-poppins text-white/70 min-w-0">
+                    <div className="flex items-center gap-3 whitespace-nowrap max-w-full">
+                      <svg className="w-[clamp(1.5rem,2.5vw,2rem)] h-[clamp(1.5rem,2.5vw,2rem)] text-violet-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      <span className="font-semibold truncate">{nextEvent.time}</span>
+                      <span className="font-semibold">{nextEvent.time}</span>
                       <span className="text-white/40 shrink-0">
                         {timeToNextEvent > 0 && `(in ${Math.max(1, Math.round(timeToNextEvent / 3600000))} hours)`}
                       </span>
                     </div>
                     {nextEvent.venue && (
-                      <div className="flex items-center gap-3 whitespace-nowrap truncate max-w-full">
-                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-violet-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <div className="flex items-center gap-3 whitespace-nowrap max-w-full">
+                        <svg className="w-[clamp(1.5rem,2.5vw,2rem)] h-[clamp(1.5rem,2.5vw,2rem)] text-violet-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <span className="truncate">{nextEvent.venue}</span>
+                        <span>{nextEvent.venue}</span>
                       </div>
                     )}
                   </div>
@@ -202,14 +202,14 @@ export default function LiveProjectorPage() {
 
           {/* Time Elapsed Box */}
           <div className="flex flex-col items-center justify-center bg-white/5 border border-white/10 p-8 sm:p-10 rounded-[2.5rem] backdrop-blur-md shadow-2xl shadow-pink-900/20 w-full min-w-0 overflow-hidden relative">
-            <span className="text-xs sm:text-sm lg:text-base font-poppins text-white/40 uppercase tracking-[0.2em] mb-2 truncate whitespace-nowrap">
+            <span className="text-[clamp(0.75rem,2vw,1rem)] font-poppins text-white/40 uppercase tracking-[0.2em] mb-2  whitespace-nowrap">
               Time Elapsed
             </span>
-            <span className={`font-kanit text-3xl sm:text-4xl lg:text-5xl font-semibold text-white/80 tabular-nums whitespace-nowrap truncate ${!hasHackingStarted && !hackIsOver ? "opacity-40" : ""}`}>
+            <span className={`font-kanit text-3xl sm:text-4xl lg:text-5xl font-semibold text-white/80 tabular-nums whitespace-nowrap  ${!hasHackingStarted && !hackIsOver ? "opacity-40" : ""}`}>
               {hasHackingStarted && !hackIsOver ? formatTimeLeft(timeElapsed) : "00 : 00 : 00"}
             </span>
             {!hasHackingStarted && !hackIsOver && (
-              <span className="mt-4 text-[10px] sm:text-xs font-poppins text-pink-400/80 bg-pink-500/10 border border-pink-500/20 px-3 py-1.5 rounded-full whitespace-nowrap truncate max-w-full text-center">
+              <span className="mt-4 text-[10px] sm:text-xs font-poppins text-pink-400/80 bg-pink-500/10 border border-pink-500/20 px-3 py-1.5 rounded-full whitespace-nowrap  max-w-full text-center">
                 Starts at Hacking Period
               </span>
             )}
@@ -218,26 +218,26 @@ export default function LiveProjectorPage() {
           {/* Current Event Box */}
           <div className="flex flex-col items-center justify-center bg-white/5 border border-white/10 p-8 sm:p-10 rounded-[2.5rem] backdrop-blur-md shadow-2xl shadow-indigo-900/20 w-full min-w-0 overflow-hidden relative group">
             <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent opacity-50"></div>
-            <span className="text-xs sm:text-sm lg:text-base font-poppins text-indigo-300/80 uppercase tracking-[0.2em] mb-3 truncate whitespace-nowrap relative z-10">
+            <span className="text-[clamp(0.75rem,2vw,1rem)] font-poppins text-indigo-300/80 uppercase tracking-[0.2em] mb-3  whitespace-nowrap relative z-10">
               Current Event
             </span>
             {currentEvent ? (
               <div className="flex flex-col items-center min-w-0 relative z-10 w-full text-center">
-                <span className="font-kanit text-2xl sm:text-3xl lg:text-4xl font-semibold text-white/90 whitespace-nowrap truncate max-w-full mb-2">
+                <span className="font-kanit text-[clamp(1.5rem,3vw,2.25rem)] font-semibold text-white/90 whitespace-nowrap  max-w-full mb-2">
                   {currentEvent.title}
                 </span>
                 {currentEvent.venue && (
-                  <div className="flex items-center gap-2 text-white/50 text-sm sm:text-base lg:text-lg whitespace-nowrap truncate max-w-full">
+                  <div className="flex items-center gap-2 text-white/50 text-[clamp(0.875rem,2vw,1.125rem)] whitespace-nowrap  max-w-full">
                     <svg className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <span className="truncate">{currentEvent.venue}</span>
+                    <span className="">{currentEvent.venue}</span>
                   </div>
                 )}
               </div>
             ) : (
-              <span className="font-kanit text-2xl sm:text-3xl lg:text-4xl font-semibold text-white/40 whitespace-nowrap truncate relative z-10">
+              <span className="font-kanit text-[clamp(1.5rem,3vw,2.25rem)] font-semibold text-white/40 whitespace-nowrap  relative z-10">
                 {nextEventIndex === 0 ? "Hackathon Starting Soon" : "All Events Concluded"}
               </span>
             )}
